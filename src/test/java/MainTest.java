@@ -26,10 +26,10 @@ public class MainTest {
 
     @BeforeEach
     void setUp() {
-        bread = new Bread("Test", 10, "Test Bread");
-        chocolate = new Chocolate("Test", 10, "Test Chocolate");
-        coke = new Coke("Test", 10, "Test Coke");
-        troll = new Troll("Shrek", 1000, 100);
+        bread = new Bread("Test", 10, "Test Bread", "10");
+        chocolate = new Chocolate("Test", 10, "Test Chocolate", "50%");
+        coke = new Coke("Test", 10, "Test Coke", "25%");
+        troll = new Troll("Shrek", 1000, 100, true, true);
     }
 
     @DisplayName("Subclasslar Superclass değişkenlerinin değerlerine ulaşabiliyor mu?")
